@@ -18,4 +18,14 @@ t.forward(100)
 t.left(90)
 t.forward(50)
 t.left(90)
+t.up()
+t.goto(50,200)
+t.right(80)
+t.up()
+t.forward(500)
+
+t = turtle.Screen().exitonclick()
+
+
+
 
